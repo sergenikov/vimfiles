@@ -50,6 +50,7 @@ set wildignore+=node_modules/*,bower_components/*
 nnoremap <Space>  :noh<CR>
 inoremap jj <esc>
 
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Modes/plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -59,3 +60,18 @@ inoremap jj <esc>
 "set shiftwidth=4
 "set expandtab
 
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" airlines-themes
+let g:airline_theme='simple'
+
+" nerdtree
+nnoremap <F5> :NERDTreeToggle()<CR>
