@@ -19,6 +19,3 @@
 [submodule "vim/pack/plugins/start/vim/pack/plugins/start/vimfzf"]
 	path = vim/pack/plugins/start/vim/pack/plugins/start/vimfzf
 	url = git@github.com:junegunn/fzf.vim.git
-[submodule "vim/pack/plugins/start/vimfzf"]
-	path = vim/pack/plugins/start/vimfzf
-	url = git@github.com:junegunn/fzf.vim.git
